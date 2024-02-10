@@ -1,0 +1,14 @@
+button,
+input,
+select,
+textarea {
+    color: #222;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

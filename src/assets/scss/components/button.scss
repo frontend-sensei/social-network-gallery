@@ -1,0 +1,22 @@
+.button {
+    padding: 24px 0;
+    width: 285px;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+
+    &--brown {
+        background: $brown;
+        border-bottom: 10px solid $brown-dark;
+    }
+    &--blue {
+        background: $blue-light ;
+        border-bottom: 10px solid $blue-dark;
+    }
+}
+
+button {
+    cursor: pointer;
+}
